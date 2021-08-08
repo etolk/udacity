@@ -78,12 +78,21 @@ a.post-cta:hover {
     gap: 20px;
 }
 
+.post-image {
+    max-width: 180px;
+    align-self: center;
+}
+
 .post-title, .post-text {
     font-size: 1.3rem;
 }
 
+.title {
+    font-size: 1rem;
+}
+
 .intro {
-    grid-area: 1 / 1 / 1 / 1;
+    grid-area: 2 / 1 / 2 / 1;
 }
 
 .intro-wrapper {
@@ -95,7 +104,7 @@ a.post-cta:hover {
 }
 
 .blog-post-first {
-    grid-area: 2 / 1 / 2 / 1;
+    grid-area: 1 / 1 / 1 / 1;
     margin-bottom: 20px;
 }
 
@@ -115,6 +124,10 @@ a.post-cta:hover {
     margin-bottom: 20px;
 }
 
+.additional-info-wrapper .post-title{
+    align-self: center;
+}
+
 .img-block {
     grid-area: 4 / 1 / 4 / 1;
     display: flex;
@@ -130,12 +143,24 @@ a.post-cta:hover {
     margin-bottom: 50px;
 }
 
-.card-imgage {
+.card-image {
     max-width: 180px;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 .blog-post-second {
     grid-area: 5 / 1 / 5 / 1;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 
 #two {
@@ -174,7 +199,7 @@ a.post-cta:hover {
         padding: 10px 70px;
     }
 
-    .card-imgage {
+    .card-image {
         min-width: 120px;
         max-width: 120px;
     }
