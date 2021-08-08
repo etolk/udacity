@@ -1,3 +1,3 @@
-The goal of this project is to practice building responsive website pages using CSS grid and CSS flex.
+The goal of this project is to practice building responsive website using CSS grid and flex.
 # Demo
-https://etolk.github.io/udacity/
+https://etolk.github.io/udacity
